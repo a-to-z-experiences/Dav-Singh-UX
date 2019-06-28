@@ -1,0 +1,183 @@
+.topHeading {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+    .top-img {
+      width: 30%;
+
+      img {
+        width: 100%;
+        max-height: 800px;
+
+        @media (max-width: @mobile){
+          display:none;
+        }
+      }
+    }
+    .top-text {
+      width: 70%;
+      background-color: #00a82e;
+      max-height: 800px;
+      display: flex;
+      flex-direction: column;
+      padding: 60px;
+
+      @media (max-width: @mobile){
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 14rem;
+        color: white;
+        text-align: center;
+      }
+    }
+}
+
+.midParagraph {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+    @media (max-width: @mobile){
+      flex-direction: column-reverse;
+    }
+
+    .mid-img {
+      width: 70%;
+
+      @media (max-width: @mobile){
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+        max-height: 800px;
+      }
+    }
+
+    .mid-text {
+      width: 30%;
+      max-height: 800px;
+      display: flex;
+      flex-direction: column;
+      padding: 60px;
+
+      @media (max-width: @mobile){
+        width: 100%;
+        padding: 0px;
+      }
+
+      h1 {
+        font-size: 15.2rem;
+        color: #00a82e;
+        text-align: center;
+      }
+    }
+}
+
+.bottomParagraph {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  flex-direction: row-reverse;
+
+  @media (max-width: @mobile){
+    flex-direction: column-reverse;
+  }
+
+  .bottom-img {
+    width: 70%;
+
+    @media (max-width: @mobile){
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+      max-height: 800px;
+    }
+  }
+
+  .bottom-text {
+    width: 30%;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+
+    @media (max-width: @mobile){
+      width: 100%;
+      padding: 0px;
+    }
+
+    h1 {
+      font-size: 15.2rem;
+      color: #00a82e;
+      text-align: center;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Sample how to nest in mobile view and less in general
+// .home {
+
+//   .intro {
+
+//     h2 {
+//       padding: 15px;
+//     }
+
+//     p {
+//       padding:0 15px;
+//     }
+  
+//   }
+
+  //Sample how you nest in mobile
+  //.space-images {
+    // // display: flex;
+    // // flex-wrap: wrap;
+    // // width: 100%;
+
+    // .launch {
+    //   width: 28%;
+    //   margin: 20px 2.5%;
+    //   border-radius: 20px;
+    //   height: 100%;
+    
+    //   @media (max-width: @mobile){
+    //    width:100%;
+    //   }
+    // }
+
+  //    .blast, .sky {
+  //     width: 28%;
+  //     margin: 20px 2.5%;
+  //     border-radius: 20px;
+  //     height: 100%;   
+
+  //       @media (max-width: @mobile){
+  //         display:none;
+  //       }
+  // }
+  // }
+
