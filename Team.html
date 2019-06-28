@@ -8,13 +8,22 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="./js/tabs.js" async></script>
+  <script src="./js/index.js" async></script>
   <!-- <script src="./components/Carousel/Carousel.js" async></script> -->
 </head>
 
 <body>
-
-
-  <!-- TABS COMPONENT -->
+  <header>
+    <nav class="navigation">
+        <div class="logo"> AirBnB Mum </div>
+        <ul class ="list">
+            <a href="original.html"></a>
+            <a href="Team.html"></a>
+            <a href="https://atoz-login.netlify.com/"></a>
+        </ul>
+    </nav>
+</header>
+<!--  TABS COMPONENT -->
   <div class="tabs">
     <div class="topics">
       <span class="title">Meet The Team</span>
@@ -30,156 +39,43 @@
 
     <!-- CARD COMPONENTS -->
     <div class="card" data-tab="UX">
-      <div class="headline">ES8: The Next Step in the Evolution of Javascript and What it Means For Your Projects</div>
       <div class="author">
         <div class="img-container">
-          <img src="./assets/sir.jpg" />
+          <img src="img\ChrisPhoto.png" />
         </div>
-        <span>By SIR RUFF'N'STUFF</span>
+        <span>Christopher</span>
       </div>
     </div>
 
     <div class="card" data-tab="UX">
-      <div class="headline">Type Coercion: Why Does NaN !== NaN? and Other Strange Occurrences</div>
       <div class="author">
         <div class="img-container">
-          <img src="./assets/bones.jpg" />
+          <img src="img\NickPhoto.png" />
         </div>
-        <span>By BONES R. LIFE</span>
-      </div>
-    </div>
-
-    <div class="card" data-tab="bootstrap">
-      <div class="headline">Bootstrap 5: Get a Sneak Peak at all the New Features</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/fido.jpg" />
-        </div>
-        <span>By FIDO WALKSALOT</span>
+        <span>Nick</span>
       </div>
     </div>
 
     <div class="card" data-tab="Back End">
-      <div class="headline">AI: What Are the Ethical Ramifications of the Future?</div>
       <div class="author">
         <div class="img-container">
-          <img src="./assets/max.jpg" />
+          <img src="img\MarcusPhoto.png" />
         </div>
-        <span>By MAX GOODBOYE</span>
-      </div>
-    </div>
-
-    <div class="card" data-tab="jquery">
-      <div class="headline">History of Javascript Libraries: from jQuery to React</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/puppers.jpg" />
-        </div>
-        <span>By PUPPER S. DOGGO</span>
-      </div>
-    </div>
-
-    <div class="card" data-tab="bootstrap">
-      <div class="headline">UI Frameworks: A Comparison, Which Made Our List? (Hint: Bootstrap is on it)</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/max.jpg" />
-        </div>
-        <span>By MAX GOODBOYE</span>
-      </div>
-    </div>
-
-    <div class="card" data-tab="Team Lead">
-      <div class="headline">Node.js in 2018: Which Framework? Express, Sails, Hapi?</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/sir.jpg" />
-        </div>
-        <span>By SIR RUFF'N'STUFF</span>
-      </div>
-    </div>
-
-    <div class="card" data-tab="Team Lead">
-      <div class="headline">MongoDB: NoSQL vs. SQL, the Debate Continues...</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/bones.jpg" />
-        </div>
-        <span>By BONES R. LIFE</span>
-      </div>
-    </div>
-
-    <div class="card" data-tab="jquery">
-      <div class="headline">jQuery Animations: When and Where to Use Them, and Not CSS</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/fido.jpg" />
-        </div>
-        <span>By FIDO WALKSALOT</span>
+        <span>Marcus</span>
       </div>
     </div>
 
     <div class="card" data-tab="Back End">
-      <div class="headline">AR or VR: How We Will See the World Through a Digital Lense</div>
       <div class="author">
         <div class="img-container">
-          <img src="./assets/max.jpg" />
+          <img src="img\LesliePhoto.png" />
         </div>
-        <span>By MAX GOODBOYE</span>
+        <span>Leslie</span>
       </div>
     </div>
 
-    <div class="card" data-tab="UX">
-      <div class="headline">When to Rest, When to Spread: Why There Are Two Meanings Behind '...'</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/puppers.jpg" />
-        </div>
-        <span>By PUPPER S. DOGGO</span>
-      </div>
-    </div>
 
-    <div class="card" data-tab="UX">
-      <div class="headline">Typescript: Ten Things you Should Know Before Building Your Next Angular Application</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/sir.jpg" />
-        </div>
-        <span>By SIR RUFF'N'STUFF</span>
-      </div>
-    </div>
-
-    <div class="card" data-tab="Back End">
-      <div class="headline">Quantum Computing: Where we Are Now, and Where We Will Be Very Soon</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/max.jpg" />
-        </div>
-        <span>By MAX GOODBOYE</span>
-      </div>
-    </div>
-
-    <div class="card" data-tab="jquery">
-      <div class="headline">Why I Use jQuery in Every Application I Create and Why You Should Too</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/fido.jpg" />
-        </div>
-        <span>By FIDO WALKSALOT</span>
-      </div>
-    </div>
-
-    <div class="card" data-tab="bootstrap">
-      <div class="headline">The Hottest New Bootstrap 4 Components Every Developer Needs to Know About</div>
-      <div class="author">
-        <div class="img-container">
-          <img src="./assets/max.jpg" />
-        </div>
-        <span>By MAX GOODBOYE</span>
-      </div>
-    </div>
-
-  </div>
+  </div>  <!-- COMPONENTS END -->
 </body>
 
 </html>
